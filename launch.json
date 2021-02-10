@@ -1,0 +1,15 @@
+{
+    "version": "0.2.0",
+    "configurations": [
+        {
+            "type": "node",
+            "request": "attach",
+            "name": "Attach to TruWeb debugger", 
+            "address": "localhost",
+            "port": 9230,
+            "localRoot": "${workspaceFolder}", 
+            "remoteRoot": "${workspaceFolder}", 
+            "preLaunchTask": "[LoadRunner Developer] Debug Vuser"
+        }
+    ]
+}
